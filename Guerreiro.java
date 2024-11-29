@@ -23,6 +23,14 @@ public class Guerreiro {
         return energia;
     }
 
+    public void setCodigo(int codigo){
+        this.codigo = codigo;
+    }
+    
+    public void setNome(String nome) {
+        this.nome = nome;
+    }
+    
     public void setEnergia(int energia) {
         if(energia >= 0 && energia <= 5) {
             this.energia = energia;
